@@ -5,7 +5,7 @@ Game Graphics and Real Time Rendering Final Project
 - Aaron Kanehl - Fire Crystal, water crystal
 - Evita Lobo - Clouds
 - Kaio Barbosa - Water and terrain
-- Wai Chun Leun - Tree and grass Sway
+- Wai Chun Leung - Tree and grass Sway
 - Wesley Smith - Shadow Crystal, fireflies, day/night
 
 ### Objective:
@@ -25,4 +25,9 @@ Use Unity version 19.1.4 to download and run this project. Or if you just want t
 
 
 ### Extra files: 
-There are extra files, including the documentation of the project and our intial presentation, both as PDF files saved in the 'MiscFiles' Folder. In addition to these two files, there is a video file (.mp4) that documents the scene, showing off some of the elements of the scene! 
+There are extra files, including the documentation of the project and our intial presentation, both as PDF files saved in the 'MiscFiles' Folder. In addition to these two files, there is a video file (.mp4) that documents the scene, showing off some of the elements of the scene!
+[Video Link](https://github.com/kaiobarb/mystical-grove/tree/master/MiscFiles) 
+
+### Screenshots:
+
+![Screenshot](./Screenshot.PNG)
