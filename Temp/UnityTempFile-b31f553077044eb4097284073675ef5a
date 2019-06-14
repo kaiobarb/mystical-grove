@@ -1,0 +1,515 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.RenderPipelines.HighDefinition.Editor.dll
+/unsafe
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/Unity.Locator.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
+/reference:"F:/Users/johnson/Desktop/The Mystical Grove/Library/PackageCache/com.unity.render-pipelines.high-definition@5.7.2-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_1_4
+/define:UNITY_2019_1
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:ENABLE_VSTU
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:HDRP_1_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\AssetProcessors\CubeLutImporter.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\AssetProcessors\NormalMapFilteringTexturePostprocessor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\BuildProcessors\HDRPPreprocessBuild.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\BuildProcessors\HDRPPreprocessShaders.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\CameraEditorUtils.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\CoreEditorDrawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\DebugState.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\DebugUIDrawer.Builtins.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\DebugUIDrawer.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\DebugUIHandlerCanvasEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\DebugWindow.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Debugging\UIFoldoutEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\EditorPrefBoolFlags.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\ExpandedState.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Gizmo\HierarchicalBox.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Gizmo\HierarchicalSphere.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Lighting\CoreLightEditorUtilities.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\QuaternionPropertyDrawer.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\ShaderGenerator\CSharpToHLSL.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\ShaderGenerator\ShaderGeneratorMenu.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\ShaderGenerator\ShaderTypeGeneration.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\TextureCombiner\TextureCombiner.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Core\Utilities\SerializedBitArray.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\DefaultScene\HDProjectSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\DefaultScene\HDRPWizard.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\DefaultScene\HDSceneManagement.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\AdditionalShadowDataEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\AmbientOcclusionEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\DiffusionProfileOverrideEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDAdditionalLightDataEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightExplorerExtension.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightUI.ContextualMenu.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightUI.Handles.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\HDLightUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\IndirectLightingControllerEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\CameraSettingsUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDAdditionalReflectionDataEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDBakedReflectionSystem.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDCubemapInspector.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeUI.ContextualMenu.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeUI.Handles.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDProbeUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDReflectionProbeEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDReflectionProbeEditor.Gizmos.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDReflectionProbeEditor.Preview.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDReflectionProbeEditor.ProbeUtility.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\HDScreenSpaceReflectionEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\PlanarReflectionProbeEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\ProbeSettingsUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\ReflectionMenuItem.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\ScreenSpaceRefractionEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\SerializedCameraSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\SerializedHDProbe.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\SerializedHDReflectionProbe.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\SerializedPlanarReflectionProbe.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\SerializedProbeSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\InfluenceVolumeUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\InfluenceVolumeUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\InfluenceVolumeUI.Gizmos.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\InfluenceVolumeUI.Handles.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\InfluenceVolumeUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\ProxyVolumeUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\ReflectionProxyVolumeComponentEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\SerializedInfluenceVolume.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\SerializedProxyVolume.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Reflection\Volume\SerializedReflectionProxyVolumeComponent.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\SerializedHDLight.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Shadow\ContactShadowsEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Shadow\HDShadowSettingsEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\Shadow\ShadowCascadeGUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\DensityVolumeEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\DensityVolumeTextureTool.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\DensityVolumeUI.Drawer.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\DensityVolumeUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\SerializedDensityVolume.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\VolumetricLightingControllerEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Lighting\VolumetricLighting\VolumetricMenuItem.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\AxF\AxFShaderPreprocessor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\AxF\AxFUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\BaseShaderPreprocessor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\DecalMenuItems.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\DecalProjectorComponentEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\DecalProjectorComponentHandle.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\DecalUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\CreateDecalShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\DecalGUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\DecalMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\DecalSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\DecalSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Decal\ShaderGraph\IDecalSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\DiffusionProfile\DiffusionProfileMaterialUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\DiffusionProfile\DiffusionProfileSettingsEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\DiffusionProfile\DiffusionProfileSettingsEditor.Styles.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\ExpandableAreaMaterial.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\CreateFabricShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\FabricMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\FabricSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\FabricSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\FabricUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Fabric\ShaderGraph\IFabricSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\CreateHairShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\HairMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\HairSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\HairSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\HairUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Hair\ShaderGraph\IHairSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\LayeredLit\LayeredLitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\BaseLitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\LitShaderPreprocessor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\LitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\CreateHDLitShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\HDLitMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\HDLitSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\HDLitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\HDLitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\ShaderGraph\IHDLitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Lit\StandardsToHDLitMaterialUpgrader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\PBR\ShaderGraph\HDPBRSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\CreateStackLitShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\IStackLitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\StackLitMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\StackLitSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\StackLitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\StackLit\ShaderGraph\StackLitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\TerrainLit\TerrainLitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\BaseUnlitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\CreateHDUnlitShaderGraph.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\HDUnlitMasterNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\HDUnlitSettingsView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\HDUnlitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\HDUnlitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\IHDUnlitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\UnlitSubShader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\ShaderGraph\UnlitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\UnlitsToHDUnlitUpgrader.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Material\Unlit\UnlitUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\BloomEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\ChannelMixerEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\ColorCurvesEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\ColorLookupEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\DepthOfFieldEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\ExposureEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\FilmGrainEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\InspectorCurveEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\LiftGammaGainEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\MotionBlurEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\SerializedGlobalPostProcessSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\ShadowsMidtonesHighlightsEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\TonemappingEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\TrackballUIDrawer.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\PostProcessing\VignetteEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\BaseUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\HDAdditionalCameraEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\HDCameraEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\HDCameraEditor.Handlers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\HDCameraUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\HDCameraUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Camera\SerializedHDCamera.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDAssetFactory.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDBaseEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDEditorCLI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDEditorUtils.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDRenderPipelineEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDRenderPipelineMenuItems.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDRenderPipelineUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\HDRenderPipelineUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\IUpdateable.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Raytracing\HDRaytracingEnvironmentInspector.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Raytracing\SerializedHDRaytracingEnvironment.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\DiffusionProfileSettingsListUI.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\FrameSettingsUI.Drawers.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\FrameSettingsUI.Skin.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\OverridableFrameSettingsArea.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedDynamicResolutionSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedFrameSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedGlobalDecalSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedGlobalLightLoopSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedHDRenderPipelineAsset.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedHDShadowInitParameters.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\RenderPipeline\Settings\SerializedRenderPipelineSettings.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\DefaultMaterialSlot.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\HDMaterialTags.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\HDSubShaderUtilities.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\Nodes\DiffusionProfileNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\Nodes\EmissionNode.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\Slots\DiffusionProfileInputMaterialSlot.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\ShaderGraph\Views\DiffusionProfileSlotControlView.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\AtmosphericScattering\AtmosphericScatteringEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\AtmosphericScattering\ExponentialFogEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\AtmosphericScattering\LinearFogEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\AtmosphericScattering\VolumetricFogEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\GradientSky\GradientSkyEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\HDRISky\HDRISkyEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\ProceduralSky\ProceduralSkyEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\SkySettingsEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\StaticLightingSkyEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Sky\VisualEnvironmentEditor.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Upgraders\UpgradeMenuItem.cs"
+"F:\Users\johnson\Desktop\The Mystical Grove\Library\PackageCache\com.unity.render-pipelines.high-definition@5.7.2-preview\Editor\Upgraders\UpgradeStandardShaderMaterials.cs"
