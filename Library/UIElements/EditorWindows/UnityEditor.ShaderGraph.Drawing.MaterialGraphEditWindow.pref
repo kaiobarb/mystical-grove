@@ -17,8 +17,20 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__b6f24f35b2e51414fa41574d8551f3f4__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   - __PanelContainer__rootVisualContainer__9f6bcf09c91334b4b987248e21d4d473__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__9f6bcf09c91334b4b987248e21d4d473__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__9d7363ae42c66c5489d39ebaee9a554d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__9d7363ae42c66c5489d39ebaee9a554d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__78a95773a529fca4ab333c9dae9f82b7__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__78a95773a529fca4ab333c9dae9f82b7__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__b59db0c5d7d9dbb478d03ba139e5f0a3__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__b59db0c5d7d9dbb478d03ba139e5f0a3__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
   - '{}'
   - '{}'
-  - '{"position":{"x":1520.0,"y":906.4000244140625,"z":0.0},"scale":{"x":0.8695651888847351,"y":0.8695651888847351,"z":1.0}}'
-  - '{"m_Version":218,"m_SelectedElementsArray":["5c1b3ed2-6669-449b-9b58-d88f4d3d40be"]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":1120.0,"y":564.0,"z":0.0},"scale":{"x":0.47861436009407046,"y":0.47861436009407046,"z":1.0}}'
+  - '{"m_Version":4,"m_SelectedElementsArray":["1f97d260-126c-4be0-891b-692009bfe429","ae718b1b-7c11-4dd9-8e87-54a881d874f5"]}'
