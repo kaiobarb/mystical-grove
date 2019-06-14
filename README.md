@@ -1,3 +1,5 @@
+NOTE TO GRADERS: The final version of this project, and the one that should be graded, is on the "final" branch of this repo, NOT master
+---
 # mystical-grove
 Game Graphics and Real Time Rendering Final Project
 
