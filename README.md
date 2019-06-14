@@ -2,7 +2,7 @@
 Game Graphics and Real Time Rendering Final Project
 
 ### Group Members:
-- Aaron Kanehl - Fire Crystal
+- Aaron Kanehl - Fire Crystal, water crystal
 - Evita Lobo - Clouds
 - Kaio Barbosa - Water and terrain
 - Wai Chun Leun - Tree and grass Sway
@@ -21,5 +21,8 @@ In our final scene, we aim to have the following effects implemented:
  - Fog and Godrays
  
 ## To Run this project:
-Use Unity version 19.1.4 to download and run this project. Or if you just want to see the end result, download the build at [LINK MISSING] and run the executable (Windows only).
+Use Unity version 19.1.4 to download and run this project. Or if you just want to see the end result, download the build from the 'Builds' folder and run the executable (Windows only).
 
+
+### Extra files: 
+There are extra files, including the documentation of the project and our intial presentation, both as PDF files saved in the 'MiscFiles' Folder. In addition to these two files, there is a video file (.mp4) that documents the scene, showing off some of the elements of the scene! 
